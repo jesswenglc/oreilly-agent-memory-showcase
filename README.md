@@ -32,4 +32,4 @@ Runs end to end in under 15 minutes.
 
 ## More
 
-To learn more, check out the free, self-paced [Deep Agents course](https://academy.langchain.com/) on LangChain Academy.
+To learn more, check out the free, self-paced [Introduction to Deep Agents course](https://academy.langchain.com/courses/foundation-introduction-to-deepagents) on LangChain Academy.
