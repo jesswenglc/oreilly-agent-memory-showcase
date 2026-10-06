@@ -9,8 +9,8 @@ Covers:
 - **Offloading**: oversized tool results are written to the filesystem instead of staying in context.
 - **Subagents**: noisy work runs in its own isolated context and reports back only a distilled answer.
 - **Summarization**: a long conversation gets compacted once it crosses a token threshold, without losing what matters.
-- **Long-term memory**: remembering things across separate conversations.
 - **Skills**: packaged instructions and tools a deep agent loads into context only when needed.
+- **Long-term memory**: remembering things across separate conversations.
 
 ## Notebook
 
