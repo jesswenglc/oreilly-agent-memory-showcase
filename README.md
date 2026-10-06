@@ -1,8 +1,6 @@
 # How Deep Agents Remember Without Keeping Everything in Context
 
-Slides and demo notebook for the talk of the same name, part of the O'Reilly Agent Memory Expert Showcase.
-
-The talk covers three ways a deep agent avoids holding every past token in context:
+Three ways a deep agent avoids holding every past token in context:
 
 - **Offloading**: oversized tool results are written to the filesystem instead of staying in context.
 - **Subagents**: noisy work runs in its own isolated context and reports back only a distilled answer.
