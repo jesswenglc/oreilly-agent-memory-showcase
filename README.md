@@ -32,4 +32,4 @@ Runs end to end in under 15 minutes.
 
 ## More
 
-For backends, sandboxes, and deployment, see the [LangChain Academy Deep Agents course](https://academy.langchain.com/).
+To learn more, check out the free, self-paced [course on LangChain Academy](https://academy.langchain.com/).
