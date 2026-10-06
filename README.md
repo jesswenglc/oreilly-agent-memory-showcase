@@ -2,7 +2,7 @@
 
 ## Slides
 
-`How Deep Agents Remember Without Keeping Everything in Context.pptx`
+`How Deep Agents Remember Without Keeping Everything in Context (slides).pptx`
 
 Covers:
 
