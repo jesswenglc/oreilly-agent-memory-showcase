@@ -22,7 +22,7 @@ A runnable demo of offloading, subagents, and summarization, using one scenario:
 
 1. Open `memory_demo.ipynb` in Jupyter or VS Code.
 2. Run the setup cell to install dependencies (`deepagents`, `langgraph`, `langchain-anthropic`, `faker`, `python-dotenv`).
-3. Add an Anthropic API key to a local `.env` file in this directory:
+3. Add your model API key to a local `.env` file in this directory (this notebook defaults to Anthropic, but feel free to use any model):
    ```
    ANTHROPIC_API_KEY=sk-ant-...
    ```
