@@ -2,18 +2,18 @@
 
 Slides and demo notebook for the talk of the same name, part of the O'Reilly Agent Memory Expert Showcase.
 
-The talk covers three ways a deep agent keeps working on a task without dragging every past token along with it:
+The talk covers three ways a deep agent avoids holding every past token in context:
 
-- **Offloading** — oversized tool results are written to the filesystem instead of staying in context.
-- **Subagents** — noisy work runs in its own isolated context and only reports back a distilled answer.
-- **Summarization** — a long-running conversation gets compacted once it crosses a token threshold, without losing what matters.
+- **Offloading**: oversized tool results are written to the filesystem instead of staying in context.
+- **Subagents**: noisy work runs in its own isolated context and reports back only a distilled answer.
+- **Summarization**: a long conversation gets compacted once it crosses a token threshold, without losing what matters.
 
-Long-term memory (an agent remembering things across entirely separate conversations) is a different topic and isn't covered here.
+Long-term memory, across separate conversations, is not covered here.
 
 ## Contents
 
-- `How Deep Agents Remember Without Keeping Everything in Context.pptx` — the talk slides.
-- `memory_demo.ipynb` — a runnable companion notebook. One scenario (a market-intelligence agent drafting a company briefing) demonstrates all three mechanisms in sequence.
+- `How Deep Agents Remember Without Keeping Everything in Context.pptx`: the talk slides.
+- `memory_demo.ipynb`: a runnable notebook. One scenario, a market-intelligence agent drafting a company briefing, demonstrates all three mechanisms.
 
 ## Running the notebook
 
@@ -25,8 +25,8 @@ Long-term memory (an agent remembering things across entirely separate conversat
    ```
 4. Run the remaining cells top to bottom.
 
-The notebook runs end to end in under 15 minutes.
+Runs end to end in under 15 minutes.
 
 ## More
 
-For long-term memory, backends, skills, sandboxes, and deployment, see the self-paced [LangChain Academy Deep Agents course](https://academy.langchain.com/).
+For long-term memory, backends, skills, sandboxes, and deployment, see the [LangChain Academy Deep Agents course](https://academy.langchain.com/).
