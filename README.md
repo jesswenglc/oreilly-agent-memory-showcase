@@ -4,12 +4,13 @@
 
 `How Deep Agents Remember Without Keeping Everything in Context.pptx`
 
-Covers four ways a deep agent manages memory:
+Covers:
 
 - **Offloading**: oversized tool results are written to the filesystem instead of staying in context.
 - **Subagents**: noisy work runs in its own isolated context and reports back only a distilled answer.
 - **Summarization**: a long conversation gets compacted once it crosses a token threshold, without losing what matters.
 - **Long-term memory**: remembering things across separate conversations.
+- **Skills**: packaged instructions and tools a deep agent loads into context only when needed.
 
 ## Notebook
 
@@ -31,4 +32,4 @@ Runs end to end in under 15 minutes.
 
 ## More
 
-For backends, skills, sandboxes, and deployment, see the [LangChain Academy Deep Agents course](https://academy.langchain.com/).
+For backends, sandboxes, and deployment, see the [LangChain Academy Deep Agents course](https://academy.langchain.com/).
