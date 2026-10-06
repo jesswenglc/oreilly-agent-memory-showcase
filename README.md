@@ -1,19 +1,23 @@
 # How Deep Agents Remember Without Keeping Everything in Context
 
-Three ways a deep agent avoids holding every past token in context:
+## Slides
+
+`How Deep Agents Remember Without Keeping Everything in Context.pptx`
+
+Covers four ways a deep agent manages memory:
 
 - **Offloading**: oversized tool results are written to the filesystem instead of staying in context.
 - **Subagents**: noisy work runs in its own isolated context and reports back only a distilled answer.
 - **Summarization**: a long conversation gets compacted once it crosses a token threshold, without losing what matters.
+- **Long-term memory**: remembering things across separate conversations.
 
-The slides also cover long-term memory, remembering things across separate conversations. The notebook focuses on the three mechanisms above.
+## Notebook
 
-## Contents
+`memory_demo.ipynb`
 
-- `How Deep Agents Remember Without Keeping Everything in Context.pptx`: the talk slides.
-- `memory_demo.ipynb`: a runnable notebook. One scenario, a market-intelligence agent drafting a company briefing, demonstrates all three mechanisms.
+A runnable demo of offloading, subagents, and summarization, using one scenario: a market-intelligence agent drafting a company briefing.
 
-## Running the notebook
+### Running the notebook
 
 1. Open `memory_demo.ipynb` in Jupyter or VS Code.
 2. Run the setup cell to install dependencies (`deepagents`, `langgraph`, `langchain-anthropic`, `faker`, `python-dotenv`).
